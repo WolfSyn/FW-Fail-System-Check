@@ -95,7 +95,7 @@ def sfp_temp_matrix(df):
 
 # Main Functions
 def main():
-    file_path = r"C:\Users\cgarcia\Documents\CX Lab\CXLAB_FW_Monitoring\2025 LOGS\FEB 2025\02-03 to 02-10 -- 2025\Encore_RG_Monitoring.csv"
+    file_path = r"" # Make sure you add your CSV file path...
     logging.info("Script started...")
     df = load_data(file_path)
 
