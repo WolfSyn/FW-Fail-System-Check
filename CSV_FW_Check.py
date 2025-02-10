@@ -10,14 +10,6 @@ To run the script, provide the path to the CSV file as an argument when executin
 
 Example usage:
     python firmware_analysis.py firmware_data.csv
-
-V1 - added a logging function so when there is a failure in this script, it will give you a message indicating that fail
-also fixed the "DATE_TESTED" -> needed to add format so it may track the date & time. (needed to add hue & timestamps)
-
-V2 - added percentage on "Most Common Failure Descriptions per Firmware" -> so we may see its fail percentage.
-
-Ideas:
-Might want to add a Trained AI Model on past failure data to predict potential failures based on FW versions, temp, etc.
 """
 
 
